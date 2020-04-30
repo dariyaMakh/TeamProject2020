@@ -16,7 +16,7 @@ def pairs_trading_algo(self):
     
     #The mail addresses and password
     sender_address = 'teamprojectswsiz@gmail.com'
-    sender_pass = 'Wsiz1313!'
+    sender_pass = '*****'
     receiver_address = 'bakhytdariya@gmail.com@gmail.com'
     #Setup the MIME
     message = MIMEMultipart()
