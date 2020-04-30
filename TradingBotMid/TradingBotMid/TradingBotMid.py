@@ -10,7 +10,7 @@ def pairs_trading_algo(self):
     api = tradeapi.REST('PKDH95M0E14GL5JTFJU8', 'uw6j874o7vau5DjKuLKLg49xHDWLK2q0fM1wIjCf', api_version='v2')
     account = api.get_account()
     sender_address = 'teamprojectswsiz@gmail.com'
-    sender_pass = 'Wsiz1313!'
+    sender_pass = '******'
     receiver_address = 'bakhytdariya@gmail.com'
 
     message = MIMEMultipart()
