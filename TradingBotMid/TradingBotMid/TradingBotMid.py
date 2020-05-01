@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 
 def pairs_trading_algo(self):
     os.environ["APCA_API_BASE_URL"] = "https://paper-api.alpaca.markets"
-    api = tradeapi.REST('PKDH95M0E14GL5JTFJU8', 'uw6j874o7vau5DjKuLKLg49xHDWLK2q0fM1wIjCf', api_version='v2')
+    api = tradeapi.REST('KEYID', 'SECRETKEY', api_version='v2')
     account = api.get_account()
     sender_address = 'teamprojectswsiz@gmail.com'
     sender_pass = '******'
