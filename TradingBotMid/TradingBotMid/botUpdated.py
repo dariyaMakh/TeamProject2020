@@ -11,7 +11,7 @@ def pairs_trading_algo(self):
     #Specify paper trading environment 
     os.environ["APCA_API_BASE_URL"] = "https://paper-api.alpaca.markets"
     #Insert API Credentials 
-    api = tradeapi.REST('PKDH95M0E14GL5JTFJU8', 'uw6j874o7vau5DjKuLKLg49xHDWLK2q0fM1wIjCf', api_version='v2') # or use ENV Vars shown below
+    api = tradeapi.REST('KEYID', 'SECRETKEY', api_version='v2') # or use ENV Vars shown below
     account = api.get_account()
     
     #The mail addresses and password
